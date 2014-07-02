@@ -45,5 +45,4 @@ module.exports = (grunt) ->
 	# $ grunt bumper:major
 	# >> "v1.0.0"
 
-	grunt.registerTask 'bump', ['bumper']
 	grunt.registerTask 'replacer', ['replace']
