@@ -1,0 +1,26 @@
+{
+  "name": "try-grunt-release-it",
+  "version": "0.0.1",
+  "description": "try-grunt-release-it ====================",
+  "main": "index.js",
+  "dependencies": {
+    "grunt": "~0.4.5",
+    "grunt-release-it": "~0.1.1"
+  },
+  "devDependencies": {
+    "grunt-release-it": "^0.1.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/barrymwong/try-grunt-release-it.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/barrymwong/try-grunt-release-it/issues"
+  },
+  "homepage": "https://github.com/barrymwong/try-grunt-release-it"
+}

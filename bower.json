@@ -1,0 +1,16 @@
+{
+  "name": "YourName",
+  "version": "0.0.1",
+  "repository": "",
+  "main": "index.html",
+  "ignore": [
+    "node_modules",
+    "bower_components",
+    ".sass-cache"
+  ],
+  "dependencies": {
+    "compass-otcore": "https://github.com/opentable/compass-otcore.git#*",
+    "compass-gctheme": "https://github.com/opentable/compass-gctheme.git#*"
+  },
+  "private": true
+}
