@@ -1,6 +1,6 @@
 {
   "name": "YourName",
-  "version": "1.2.15",
+  "version": "1.2.16",
   "repository": "",
   "main": "index.html",
   "ignore": [
@@ -9,7 +9,7 @@
     ".sass-cache"
   ],
   "dependencies": {
-    "compass-otcore": "https://github.com/opentable/compass-otcore.git#~0.1.8",
+    "compass-otcore": "https://github.com/opentable/compass-otcore.git#*",
     "compass-gctheme": "https://github.com/opentable/compass-gctheme.git#*"
   },
   "private": true
