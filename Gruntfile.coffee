@@ -37,5 +37,11 @@ module.exports = (grunt) ->
 	grunt.loadNpmTasks 'grunt-bumper'
 	grunt.loadNpmTasks 'grunt-text-replace'
 
-	grunt.registerTask 'release', ['bumper']
+	# $ grunt bumper
+	# >> "v0.0.2"
+	# $ grunt bumper:minor
+	# >> "v0.1.0"
+	# $ grunt bumper:major
+	# >> "v1.0.0"
+
 	grunt.registerTask 'replacer', ['replace']
