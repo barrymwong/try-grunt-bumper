@@ -1,6 +1,6 @@
 {
   "name": "try-grunt-release-it",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "try-grunt-release-it ====================",
   "main": "index.js",
   "dependencies": {
