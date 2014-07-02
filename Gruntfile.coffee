@@ -23,7 +23,7 @@ module.exports = (grunt) ->
 				gitDescribeOptions: "--tags --always --abbrev=1 --dirty=-d"
 
 		replace:
-			rb:
+			configRb:
 				src: ['config.rb']
 				overwrite: true
 				replacements: [
