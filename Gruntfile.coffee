@@ -1,6 +1,7 @@
 module.exports = (grunt) ->
 	grunt.initConfig
 		pkg: grunt.file.readJSON "package.json"
+
 		bumper:
 			options:
 				files: ["package.json", "bower.json"]
@@ -44,4 +45,7 @@ module.exports = (grunt) ->
 	# $ grunt bumper:major
 	# >> "v1.0.0"
 
+	grunt.registerTask 'bump', ['bumper']
+	grunt.registerTask 'bump:minor', ['bumper:minor']
+	grunt.registerTask 'bump:major', ['bumper:major']
 	grunt.registerTask 'replacer', ['replace']
