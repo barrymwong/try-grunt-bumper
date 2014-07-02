@@ -27,10 +27,10 @@ module.exports = (grunt) ->
 				src: ['config.rb']
 				overwrite: true
 				replacements: [
-					from: /[0-9]{1,2}.[0-9]{1,2}.[0-9]{1,2}/
+					from: /"[0-9]{1,2}.[0-9]{1,2}.[0-9]{1,2}"/
 					to: '<%= pkg.version %>'
 				,
-					from: /[0-9]{2,4}-[0-9]{1,2}-[0-9]{1,2}/g
+					from: /"[0-9]{2,4}-[0-9]{1,2}-[0-9]{1,2}"/
 					to: "<%= grunt.template.today('yyyy-mm-dd') %>"
 				]
 
