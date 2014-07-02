@@ -10,7 +10,7 @@ module.exports = (grunt) ->
 				runTasks: true
 				tasks: ["replacer"]
 				add: false
-				addFiles: ["package.json", "bower.json", "config.rb"] # '.' for all files except ingored files in .gitignore
+				addFiles: ["package.json", "bower.json"] # '.' for all files except ingored files in .gitignore
 				commit: true
 				commitMessage: "Release v%VERSION%"
 				commitFiles: ["-a"] # '-a' for all files
