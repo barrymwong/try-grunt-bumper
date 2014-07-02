@@ -29,6 +29,9 @@ module.exports = (grunt) ->
 				replacements: [
 					from: /[0-9].[0-9].[0-9]/
 					to: '<%= pkg.version %>'
+				,
+					from: /[0-9]{2,4}-[0-9]{1,2}-[0-9]{1,2}/g
+					to: "<%= grunt.template.today('yyyy-mm-dd') %>"
 				]
 
 	grunt.loadNpmTasks 'grunt-bumper'

@@ -1,4 +1,4 @@
 module Gctheme
-	VERSION = "0.0.13210"
-	DATE = "2014-06-16"
+	VERSION = "0.0.14"
+	DATE = "2014-07-02"
 end
