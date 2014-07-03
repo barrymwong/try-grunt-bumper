@@ -13,7 +13,7 @@ module.exports = (grunt) ->
 				addFiles: ["package.json", "bower.json", "config.rb"] # '.' for all files except ingored files in .gitignore
 				commit: true
 				commitMessage: "Release v%VERSION%"
-				commitFiles: ["-a"] # '-a' for all files
+				commitFiles: ["package.json", "bower.json", "config.rb"] # '-a' for all files
 				createTag: true
 				tagName: "v%VERSION%"
 				tagMessage: "Version %VERSION%"
@@ -35,8 +35,16 @@ module.exports = (grunt) ->
 					to: '"<%= grunt.template.today(\'yyyy-mm-dd\') %>"'
 				]
 
+		shell:
+			'pull-upstream':
+				command: 'git pull upstream master'
+			'push-origin':
+				command: 'git push origin master'
+
+
 	grunt.loadNpmTasks 'grunt-bumper'
 	grunt.loadNpmTasks 'grunt-text-replace'
+	grunt.loadNpmTasks 'grunt-shell'
 
 	# $ grunt bumper
 	# >> "v0.0.2"
@@ -46,3 +54,4 @@ module.exports = (grunt) ->
 	# >> "v1.0.0"
 
 	grunt.registerTask 'replacer', ['replace']
+	grunt.registerTask 'bump', ['shell:pull-upstream', 'bumper:patch', 'shell:pull-upstream', 'shell:push-origin']
