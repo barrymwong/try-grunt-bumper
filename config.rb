@@ -19,7 +19,7 @@ Compass::Frameworks.register('gctheme', :path => extension_path)
 #	a prerelease version
 #	Date is in the form of YYYY-MM-DD
 module Gctheme
-	VERSION = "1.2.16"
+	VERSION = "1.2.17"
 	DATE = "2014-07-02"
 end
 
