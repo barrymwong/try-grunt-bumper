@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # All gems that are required for this extension to work should go here.
 # These are the requires you would normally put in your config.rb file
 # By default, you should always included Compass. Do not include your
@@ -40,4 +41,9 @@ module Sass::Script::Functions
 		# puts unit
 		return Sass::Script::String.new(unit)
 	end
+=======
+module Gctheme
+	VERSION = "0.0.16543210"
+	DATE = "2014-06-16"
+>>>>>>> 8b0f9869a1938d293217c6f33f0d1b6018b41609
 end

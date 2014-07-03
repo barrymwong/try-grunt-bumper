@@ -1,6 +1,10 @@
 {
   "name": "YourName",
+<<<<<<< HEAD
   "version": "1.2.16",
+=======
+  "version": "0.0.17",
+>>>>>>> 8b0f9869a1938d293217c6f33f0d1b6018b41609
   "repository": "",
   "main": "index.html",
   "ignore": [
@@ -13,4 +17,8 @@
     "compass-gctheme": "https://github.com/opentable/compass-gctheme.git#*"
   },
   "private": true
+<<<<<<< HEAD
 }
+=======
+}
+>>>>>>> 8b0f9869a1938d293217c6f33f0d1b6018b41609
