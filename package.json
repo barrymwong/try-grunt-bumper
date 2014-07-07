@@ -1,6 +1,6 @@
 {
   "name": "try-grunt-bumper",
-  "version": "1.2.17",
+  "version": "1.2.18",
   "description": "",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,7 @@
     "grunt-bumper": "^1.0.4",
     "grunt-text-replace": "^0.3.12",
     "grunt-push-release": "^0.1.1",
-    "grunt-shell": "^0.7.0"
+    "grunt-shell": "^0.7.0",
+    "grunt-gh-pages": "^0.9.1"
   }
 }

@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # All gems that are required for this extension to work should go here.
 # These are the requires you would normally put in your config.rb file
 # By default, you should always included Compass. Do not include your
@@ -19,8 +18,8 @@ Compass::Frameworks.register('gctheme', :path => extension_path)
 #	a prerelease version
 #	Date is in the form of YYYY-MM-DD
 module Gctheme
-	VERSION = "1.2.17"
-	DATE = "2014-07-02"
+	VERSION = "1.2.18"
+	DATE = "2014-07-07"
 end
 
 # This is where any custom SassScript should be placed. The functions will be
@@ -41,9 +40,4 @@ module Sass::Script::Functions
 		# puts unit
 		return Sass::Script::String.new(unit)
 	end
-=======
-module Gctheme
-	VERSION = "0.0.16543210"
-	DATE = "2014-06-16"
->>>>>>> 8b0f9869a1938d293217c6f33f0d1b6018b41609
 end
